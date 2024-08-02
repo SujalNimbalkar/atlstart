@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as ArrowIcon } from "../assets/arrow-icon.svg"; // Ensure you have an arrow icon SVG
+import { ReactComponent as ArrowIcon } from "../assets/arrow-icon.svg";
 
 const OurServices = () => {
   return (

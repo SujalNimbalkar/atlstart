@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as Achieve } from "../assets/achieve.svg";
-
+//
 const AboutAltStart = () => {
   return (
     <section className="bg-[#F7F7FA] text-black py-20 font-syne">
