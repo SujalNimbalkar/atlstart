@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         syne: ["Syne", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       textColor: (theme) => theme("colors"),
       textColor: {

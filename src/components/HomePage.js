@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import Hero from "./Hero";
 import OurServices from "./OurServices";
 import AboutAltStart from "./AboutAltStart";
@@ -11,7 +11,7 @@ import Marquee from "./WhomWeWorkedWith";
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <OurServices />
       <AboutAltStart />

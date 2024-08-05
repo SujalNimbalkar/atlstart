@@ -1,20 +1,23 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/altstart-logo.svg";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const handleHomeClick = () => {
+    navigate("/");
+  };
+
   const handleOurServicesClick = () => {
-    // Your logic for handling 'Our Services' click
-    console.log("Our Services clicked");
+    navigate("/our-services");
   };
 
   const handleAboutClick = () => {
-    // Your logic for handling 'About' click
-    console.log("About clicked");
+    navigate("/about-us");
   };
 
   const handleContactUsClick = () => {
-    // Your logic for handling 'Contact Us' click
-    console.log("Contact Us clicked");
+    navigate("/contact-us");
   };
 
   return (
@@ -23,13 +26,22 @@ const Navbar = () => {
         <Logo className="h-10" /> {/* Display the SVG logo */}
       </div>
       <ul className="flex flex-1 justify-center text-xl space-x-8">
-        <li className="text-primary" onClick={handleOurServicesClick}>
+        <li className="text-primary cursor-pointer" onClick={handleHomeClick}>
+          Home
+        </li>
+        <li
+          className="text-primary cursor-pointer"
+          onClick={handleOurServicesClick}
+        >
           Our Services
         </li>
-        <li className="text-black" onClick={handleAboutClick}>
+        <li className="text-black cursor-pointer" onClick={handleAboutClick}>
           About
         </li>
-        <li className="text-black" onClick={handleContactUsClick}>
+        <li
+          className="text-black cursor-pointer"
+          onClick={handleContactUsClick}
+        >
           Contact Us
         </li>
       </ul>
