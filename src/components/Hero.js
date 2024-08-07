@@ -1,5 +1,5 @@
 import React from "react";
-
+import { PopupButton } from "react-calendly";
 const Hero = () => {
   return (
     <section className="bg-gradient-to-r from-[#C7C644] to-[#8A8A46] text-white p-20 flex flex-col lg:flex-row items-center rounded-bl-3xl rounded-br-3xl font-syne">
@@ -16,16 +16,29 @@ const Hero = () => {
           and propel your teams to excellence with AI!
         </p>
         <div className="bg-white text-black flex items-center justify-between rounded-full shadow-lg p-2 max-w-md mx-auto lg:mx-0">
-          <input
+          {/* <input
             type="email"
             placeholder="Email"
             className="p-2 rounded-l-full focus:outline-none flex-grow"
           />
           <button className="bg-black text-white px-6 py-2 rounded-full">
             Next
-          </button>
+          </button> */}
+          {/* <div className="App p-2 rounded-l-full focus:outline-none flex-grow"> */}
+          <PopupButton
+            url="https://calendly.com/sujalnimbalkar09"
+            className="App p-2 rounded-l-full focus:outline-none flex-grow"
+            /*
+             * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+             * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+             */
+            rootElement={document.getElementById("root")}
+            text="Click here to schedule!"
+          />
+          {/* </div> */}
         </div>
       </div>
+
       <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-center lg:justify-end">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-8">
           <div className="bg-white text-black rounded-xl shadow-lg p-6 flex flex-col items-center">
