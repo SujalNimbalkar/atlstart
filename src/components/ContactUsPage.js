@@ -257,7 +257,7 @@ const ContactUs = () => {
 
   return (
     <div className="bg-gradient-to-b from-[#F0ED00] from-27%  to-[#f7f7f5] to-7% min-h-screen flex flex-col justify-center items-center py-16">
-      <div className="min-w-xl mx-12 grid grid-cols-1 md:grid-cols-2 gap-40">
+      <div className="px-10 grid grid-cols-1 md:grid-cols-2 gap-40">
         {/* Left Section */}
         <div className="space-y-6 p-8">
           <h3 className="text-sm font-medium text-black">CONTACT US</h3>
@@ -283,59 +283,61 @@ const ContactUs = () => {
           </div>
         </div>
         {/* Right Section */}
-        <div className="bg-white rounded-lg p-8 shadow-lg">
-          <form className="form space-y-4" onSubmit={handleSubmit}>
-            <input
-              type="text"
-              placeholder="Your name"
-              name="Name"
-              value={formData.Name}
-              onChange={handleChange}
-              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              name="Email"
-              value={formData.Email}
-              onChange={handleChange}
-              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="text"
-              placeholder="Company/University Name"
-              name="CompanyUniversityName"
-              value={formData.CompanyUniversityName}
-              onChange={handleChange}
-              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="text"
-              placeholder="Phone Number"
-              name="PhoneNumber"
-              value={formData.PhoneNumber}
-              onChange={handleChange}
-              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="What can we help you with?"
-              name="Help"
-              value={formData.Help}
-              onChange={handleChange}
-              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 h-32 resize-none"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full py-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800"
-            >
-              GET IN TOUCH
-            </button>
-          </form>
-          {message && (
-            <div className="mt-4 p-4 bg-green-200 text-green-800 rounded-lg">
-              {message}
-            </div>
-          )}
+        <div className="space-y-6 p-8">
+          <div className="bg-white rounded-lg space-y-6 p-8 shadow-lg">
+            <form className="form space-y-4" onSubmit={handleSubmit}>
+              <input
+                type="text"
+                placeholder="Your name"
+                name="Name"
+                value={formData.Name}
+                onChange={handleChange}
+                className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                name="Email"
+                value={formData.Email}
+                onChange={handleChange}
+                className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              />
+              <input
+                type="text"
+                placeholder="Company/University Name"
+                name="CompanyUniversityName"
+                value={formData.CompanyUniversityName}
+                onChange={handleChange}
+                className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              />
+              <input
+                type="text"
+                placeholder="Phone Number"
+                name="PhoneNumber"
+                value={formData.PhoneNumber}
+                onChange={handleChange}
+                className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              />
+              <textarea
+                placeholder="What can we help you with?"
+                name="Help"
+                value={formData.Help}
+                onChange={handleChange}
+                className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 h-32 resize-none"
+              ></textarea>
+              <button
+                type="submit"
+                className="w-full py-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800"
+              >
+                GET IN TOUCH
+              </button>
+            </form>
+            {message && (
+              <div className="mt-4 p-4 bg-green-200 text-green-800 rounded-lg">
+                {message}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

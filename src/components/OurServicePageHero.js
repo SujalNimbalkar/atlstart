@@ -2,8 +2,8 @@ import React from "react";
 //min-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-40
 const OurServicesPageHero = () => {
   return (
-    <section className="min-h-[669px] flex items-center justify-center bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-100 p-8">
-      <div className="min-w-xl mx-12 grid grid-cols-1 md:grid-cols-2 gap-40">
+    <section className="min-h-[669px] flex items-center justify-center bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-100 p-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-40">
         <div className="flex flex-col justify-center">
           <h3 className="text-sm font-medium text-gray-600">OUR SERVICES</h3>
           <h1 className="text-5xl font-bold text-black my-4">
