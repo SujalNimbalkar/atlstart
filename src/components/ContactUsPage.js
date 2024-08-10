@@ -59,7 +59,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-[#F0ED00] from-27%  to-[#f7f7f5] to-7% min-h-screen flex flex-col justify-center items-center py-16">
+    <div className="bg-gradient-to-b from-yellow-300 via-yellow-100 to-white min-h-screen flex flex-col justify-center items-center py-16">
       <div className="px-10 grid grid-cols-1 md:grid-cols-2 gap-40">
         {/* Left Section */}
         <div className="space-y-6 p-8">

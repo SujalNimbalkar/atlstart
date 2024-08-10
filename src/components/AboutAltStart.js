@@ -40,7 +40,7 @@ const AboutAltStart = () => {
           </div>
         </div>
         {/* <Achieve className="h-[116px] w-[1248px]" /> */}
-        <div className="py-8 bg-gradient-to-b from-[#FFFEAF] to-[#F0ED00] rounded-[22px]">
+        <div className="py-8 bg-gradient-to-t from-yellow-300 via-yellow-200 to-yellow-100  rounded-[22px]">
           <div className="max-w-7xl mx-auto flex flex-wrap justify-around text-center">
             {/* Item 1 */}
             <div className="flex items-center space-x-4">
