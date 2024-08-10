@@ -1,6 +1,6 @@
 import React from "react";
 import AboutAltStart from "./AboutAltStart";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import ConsultationCall from "./ConsultationCall";
 
 function AboutUsPage() {
@@ -12,7 +12,7 @@ function AboutUsPage() {
       </div>
       <AboutAltStart />
       <ConsultationCall />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

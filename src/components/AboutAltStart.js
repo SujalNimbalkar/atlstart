@@ -52,7 +52,7 @@ const AboutAltStart = () => {
                   <CountUp
                     start={0}
                     end={5000}
-                    duration={2.5}
+                    duration={3}
                     separator=","
                     suffix="+"
                   />
@@ -72,7 +72,7 @@ const AboutAltStart = () => {
                   <CountUp
                     start={0}
                     end={1000}
-                    duration={2.5}
+                    duration={3}
                     separator=","
                     suffix="+"
                   />
@@ -92,7 +92,7 @@ const AboutAltStart = () => {
                   <CountUp
                     start={0}
                     end={100}
-                    duration={2.5}
+                    duration={3}
                     separator=","
                     suffix="+"
                   />
@@ -110,7 +110,7 @@ const AboutAltStart = () => {
                   <CountUp
                     start={0}
                     end={30}
-                    duration={2.5}
+                    duration={3}
                     separator=","
                     suffix="+"
                   />

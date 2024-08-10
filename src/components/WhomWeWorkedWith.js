@@ -1,16 +1,33 @@
 import React from "react";
 import MarqueeItem from "./InfinteSlider";
-import logo1 from "../assets/logo_1.png";
-import logo2 from "../assets/logo_2.png";
-import logo3 from "../assets/logo_3.png";
-import logo4 from "../assets/logo_4.png";
-import logo5 from "../assets/logo_5.png";
-import logo6 from "../assets/logo_6.png";
-import logo7 from "../assets/logo_7.png";
-import logo8 from "../assets/logo_8.png";
+import logo1 from "../assets/Images/companies-partners/1.jpeg";
+import logo2 from "../assets/Images/companies-partners/2.png";
+import logo3 from "../assets/Images/companies-partners/3.jpeg";
+import logo4 from "../assets/Images/companies-partners/4.png";
+import logo5 from "../assets/Images/companies-partners/5.png";
+import logo6 from "../assets/Images/companies-partners/6.jpg";
+import logo7 from "../assets/Images/companies-partners/7.jpeg";
+import logo8 from "../assets/Images/companies-partners/8.jpeg";
+import logo9 from "../assets/Images/companies-partners/9.jpg";
+import logo10 from "../assets/Images/companies-partners/10.jpeg";
+import logo11 from "../assets/Images/companies-partners/11.jpeg";
+import logo12 from "../assets/Images/companies-partners/12.jpeg";
 
 const Marquee = () => {
-  const upperMarquee = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
+  const upperMarquee = [
+    logo1,
+    logo2,
+    logo3,
+    logo4,
+    logo5,
+    logo6,
+    logo7,
+    logo8,
+    logo9,
+    logo10,
+    logo11,
+    logo12,
+  ];
 
   return (
     <section className="bg-white py-16 font-syne overflow-x-hidden">

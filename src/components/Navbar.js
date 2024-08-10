@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white px-16 py-4 flex justify-between items-center shadow font-syne">
+    <nav className="bg-white px-16 py-4 flex justify-between items-center shadow font-syne overflow-x-auto">
       <div>
         <Logo className="h-10" /> {/* Display the SVG logo */}
       </div>

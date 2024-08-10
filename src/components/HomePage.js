@@ -6,7 +6,7 @@ import AboutAltStart from "./AboutAltStart";
 import WhyAltStart from "./WhyAltStart";
 import ConsultationCall from "./ConsultationCall";
 import Testimonials from "./Testimonials";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Marquee from "./WhomWeWorkedWith";
 const HomePage = () => {
   return (
@@ -20,7 +20,7 @@ const HomePage = () => {
 
       <Marquee />
       <Testimonials />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
