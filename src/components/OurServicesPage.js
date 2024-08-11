@@ -1,7 +1,7 @@
 import React from "react";
 import OurServicesPageHero from "./OurServicePageHero";
 import OurServicesInfo from "./OurServiceInfo";
-// import Footer from "./Footer";
+import Community from "./CommunityPartners";
 import ConsultationCall from "./ConsultationCall";
 import Marquee from "./WhomWeWorkedWith";
 
@@ -10,10 +10,9 @@ function OurServicesPage() {
     <div>
       <OurServicesPageHero />
       <OurServicesInfo />
-      <Marquee />
+      <Community />
       <Marquee />
       <ConsultationCall />
-      {/* <Footer /> */}
     </div>
   );
 }

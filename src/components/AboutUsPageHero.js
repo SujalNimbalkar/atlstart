@@ -1,25 +1,28 @@
 import React from "react";
+import image from "../assets/about-us-hero-section.png";
 //min-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-40
-const OurServicesPageHero = () => {
+const AboutUsPageHero = () => {
   return (
     <section className="min-h-[669px] flex items-center justify-center bg-gradient-to-b from-yellow-300 via-yellow-200 to-yellow-100 p-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-40">
         <div className="flex flex-col justify-center">
-          <h3 className="text-sm font-medium text-gray-600">OUR SERVICES</h3>
+          <h3 className="text-sm font-medium text-gray-600">ABOUT US</h3>
           <h1 className="text-5xl font-bold text-black my-4">
-            Solutions for business growth
+            Ignite Innovation. Drive Growth.
           </h1>
           <p className="text-s text-gray-800 mb-8">
-            Here's how AltStart ignites innovation and drives success for you:
+            A world where every team member is an "alternative starter," not
+            just going through the motions, but actively sparking innovation and
+            driving growth. That's the world AltStart helps you build.
           </p>
           <button className="px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
             GET A FREE AUDIT
           </button>
         </div>
         <div className="relative flex justify-center items-center">
-          <div className="bg-white  rounded-lg">
+          <div className="bg-gradient-to-b from-purple-400 via-pink-500 to-red-500 w-full h-full rounded-lg">
             <img
-              src="https://via.placeholder.com/500" // Replace with actual image URL
+              src={image} // Replace with actual image URL
               alt="Service Illustration"
               className="rounded-lg w-full h-full object-cover"
             />
@@ -33,4 +36,4 @@ const OurServicesPageHero = () => {
   );
 };
 
-export default OurServicesPageHero;
+export default AboutUsPageHero;

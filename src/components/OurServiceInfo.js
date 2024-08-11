@@ -98,18 +98,18 @@ const OurServicesInfo = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-16 rounded-lg shadow-lg">
         <div className="">
           <h2 className="text-3xl font-bold text-black mb-4">
-            For Universities
+            For Individuals & Teams
           </h2>
           <div className="mb-4">
             <p className="text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
-              <span className="font-bold">Professor Development:</span> Equip
-              your faculty with the latest AI knowledge and best practices
-              through comprehensive training programs. We can help professors
-              integrate AI into their curriculum, ensuring students graduate
-              with the skills needed to thrive in the AI-driven workforce.
+              <span className="font-bold">Idea Incubator:</span> Take your ideas
+              from the drawing board to reality. Our interactive workshops and
+              courses provide the tools and knowledge to leverage AI at every
+              stage of the product development process, from initial
+              brainstorming to prototyping and testing.
             </p>
           </div>
           <div>
@@ -117,11 +117,11 @@ const OurServicesInfo = () => {
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
-              <span className="font-bold">Student Empowerment:</span> Offer
-              in-demand AI courses and workshops for students, preparing them
-              for future careers. We provide hands-on learning experiences with
-              real-world applications, making them valuable assets upon
-              graduation.
+              <span className="font-bold">Become an Innovation Catalyst: </span>
+              Empower yourself to be the driving force behind groundbreaking
+              products. Our programs develop your ability to think critically,
+              iterate on ideas, and leverage AI to create solutions that make a
+              difference. graduation.
             </p>
           </div>
           <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">

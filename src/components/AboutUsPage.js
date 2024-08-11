@@ -1,18 +1,14 @@
 import React from "react";
 import AboutAltStart from "./AboutAltStart";
-// import Footer from "./Footer";
+import AboutUsPageHero from "./AboutUsPageHero";
 import ConsultationCall from "./ConsultationCall";
 
 function AboutUsPage() {
   return (
     <div>
-      <div>
-        <h1 className="text-3xl font-bold mb-4">About Us</h1>
-        <p>Details about our services will go here.</p>
-      </div>
+      <AboutUsPageHero />
       <AboutAltStart />
       <ConsultationCall />
-      {/* <Footer /> */}
     </div>
   );
 }

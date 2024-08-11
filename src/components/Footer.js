@@ -6,7 +6,7 @@ import { ReactComponent as UpArrowIcon } from "../assets/up-arrow-icon.svg";
 import { ReactComponent as Logo } from "../assets/altstart-logo-white.svg";
 import { ReactComponent as PhoneIcon } from "../assets/phone-icon.svg";
 import { ReactComponent as SendIcon } from "../assets/send-icon.svg";
-import { ReactComponent as LocationIcon } from "../assets/location-icon.svg";
+// import { ReactComponent as LocationIcon } from "../assets/location-icon.svg";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -29,24 +29,24 @@ const Footer = () => {
                 <PhoneIcon className />
                 &nbsp;Contact Us
               </h3>
-              <p>+91 78896 77765</p>
+              <p>+91 91825 67700</p>
             </div>
             <div>
               <h3 className="text-lg font-bold mb-2 flex items-center">
                 <SendIcon />
                 &nbsp; Email
               </h3>
-              <p>hello@logoipsum.com</p>
+              <p>altstart.contact@gmail.com</p>
             </div>
           </div>
           <div className="space-y-4 text-center md:text-left">
-            <div>
+            {/* <div>
               <h3 className="text-lg font-bold mb-2 flex items-center">
                 <LocationIcon />
                 &nbsp; Address
               </h3>
               <p className="text-lg">addresslocation lorem ipsum, pune</p>
-            </div>
+            </div> */}
 
             <div>
               <h3 className="text-lg font-bold mb-2">FOLLOW US ON</h3>
