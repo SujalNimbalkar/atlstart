@@ -3,7 +3,7 @@ import image from "../assets/about-us-hero-section.png";
 //min-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-40
 const AboutUsPageHero = () => {
   return (
-    <section className="min-h-[669px] flex items-center justify-center bg-gradient-to-b from-yellow-300 via-yellow-200 to-yellow-100 p-16">
+    <section className="min-h-[669px] flex items-center justify-center bg-gradient-to-b from-yellow-300 via-yellow-200 to-yellow-100 p-16 font-syne">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-40">
         <div className="flex flex-col justify-center">
           <h3 className="text-sm font-medium text-gray-600">ABOUT US</h3>

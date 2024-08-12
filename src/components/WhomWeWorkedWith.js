@@ -12,21 +12,33 @@ import logo9 from "../assets/Images/companies-partners/9.jpg";
 import logo10 from "../assets/Images/companies-partners/10.jpeg";
 import logo11 from "../assets/Images/companies-partners/11.jpeg";
 import logo12 from "../assets/Images/companies-partners/12.jpeg";
+import logo13 from "../assets/Images/companies-partners/13.jpeg";
+import logo14 from "../assets/Images/companies-partners/14.jpeg";
+import logo15 from "../assets/Images/companies-partners/15.jpeg";
+import logo16 from "../assets/Images/companies-partners/16.png";
+import logo17 from "../assets/Images/companies-partners/17.png";
+import logo18 from "../assets/Images/companies-partners/18.png";
 
 const Marquee = () => {
   const upperMarquee = [
-    logo1,
-    logo2,
-    logo3,
-    logo4,
-    logo5,
-    logo6,
-    logo7,
-    logo8,
-    logo9,
-    logo10,
-    logo11,
-    logo12,
+    { src: logo6, name: "Arthlex Research" },
+    { src: logo1, name: "BhavyaSampada" },
+    { src: logo16, name: "Career Clap" },
+    { src: logo2, name: "Cuvette" },
+    { src: logo5, name: "DefiVerse" },
+    { src: logo3, name: "FinoBird" },
+    { src: logo4, name: "Give My Certificate" },
+    { src: logo17, name: "LM Basket" },
+    { src: logo7, name: "Luster" },
+    { src: logo8, name: "Padhega Bharat" },
+    { src: logo9, name: "MetaWork" },
+    { src: logo13, name: "Tezos India" },
+    { src: logo15, name: "Thinkgroupy" },
+    { src: logo10, name: "Threeway Studio" },
+    { src: logo14, name: "Trikon" },
+    { src: logo18, name: "Upanyas" },
+    { src: logo11, name: "Vikram" },
+    { src: logo12, name: "Vvarin" },
   ];
 
   return (

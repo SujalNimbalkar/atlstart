@@ -51,7 +51,7 @@ const AboutAltStart = () => {
                 <h3 className="text-4xl font-bold text-black">
                   <CountUp
                     start={0}
-                    end={5000}
+                    end={3000}
                     duration={3}
                     separator=","
                     suffix="+"
@@ -71,7 +71,7 @@ const AboutAltStart = () => {
                 <h3 className="text-4xl font-bold text-black">
                   <CountUp
                     start={0}
-                    end={1000}
+                    end={100}
                     duration={3}
                     separator=","
                     suffix="+"
@@ -91,7 +91,7 @@ const AboutAltStart = () => {
                 <h3 className="text-4xl font-bold text-black">
                   <CountUp
                     start={0}
-                    end={100}
+                    end={50}
                     duration={3}
                     separator=","
                     suffix="+"
@@ -109,7 +109,7 @@ const AboutAltStart = () => {
                 <h3 className="text-4xl font-bold text-black">
                   <CountUp
                     start={0}
-                    end={30}
+                    end={20}
                     duration={3}
                     separator=","
                     suffix="+"

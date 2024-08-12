@@ -76,11 +76,11 @@ const ContactUs = () => {
             <div className="flex justify-between">
               <div>
                 <h3 className="text-lg font-bold mb-2">Phone Number</h3>
-                <p className="text-xl">96754 45346</p>
+                <p className="text-xl">+91 91825 67700</p>
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2">Email Address</h3>
-                <p className="text-xl">info@altstart.com</p>
+                <p className="text-xl">altstart.contact@gmail.com</p>
               </div>
             </div>
           </div>

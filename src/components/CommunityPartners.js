@@ -11,22 +11,26 @@ import logo8 from "../assets/Images/community-partners/8.jpeg";
 import logo9 from "../assets/Images/community-partners/9.jpeg";
 import logo10 from "../assets/Images/community-partners/10.jpeg";
 import logo11 from "../assets/Images/community-partners/11.jpeg";
-import logo12 from "../assets/Images/community-partners/12.jpeg";
+import logo12 from "../assets/Images/community-partners/12.png";
+import logo13 from "../assets/Images/community-partners/13.png";
+import logo14 from "../assets/Images/community-partners/14.jpeg";
 
 const Community = () => {
   const upperMarquee = [
-    logo1,
-    logo2,
-    logo3,
-    logo4,
-    logo5,
-    logo6,
-    logo7,
-    logo8,
-    logo9,
-    logo10,
-    logo11,
-    logo12,
+    { src: logo1, name: "Amity Coding Club" },
+    { src: logo2, name: "Algocs" },
+    { src: logo3, name: "Befikra" },
+    { src: logo4, name: "Blockchain Club SRM" },
+    { src: logo5, name: "ChatraShala" },
+    { src: logo6, name: "Codedu" },
+    { src: logo7, name: "Gaming Geeks" },
+    { src: logo8, name: "Mentorle" },
+    { src: logo9, name: "Mighty IT Explorer" },
+    { src: logo10, name: "She Builds" },
+    { src: logo11, name: "SOS Tech" },
+    { src: logo12, name: "TechDirective" },
+    { src: logo13, name: "ThoughtWays" },
+    { src: logo14, name: "Web3 Panjab" },
   ];
 
   return (

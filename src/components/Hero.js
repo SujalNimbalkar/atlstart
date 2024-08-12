@@ -27,7 +27,7 @@ const Hero = () => {
           {/* <div className="App p-2 rounded-l-full focus:outline-none flex-grow"> */}
           <PopupButton
             url="https://calendly.com/sujalnimbalkar09"
-            className="App p-2 rounded-l-full focus:outline-none flex-grow"
+            className="App p2 rounded-full focus:outline-none focus:ring focus:ring-slate-300 flex-grow hover:bg-slate-200"
             /*
              * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
              * specify the rootElement property to ensure that the modal is inserted into the correct domNode.

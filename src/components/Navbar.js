@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+// import { ReactComponent as Logo } from "../assets/altstart-logo-2.svg";
 import { ReactComponent as Logo } from "../assets/altstart-logo.svg";
 import { PopupButton } from "react-calendly";
 
@@ -24,7 +25,8 @@ const Navbar = () => {
   return (
     <nav className="bg-white px-16 py-4 flex justify-between items-center shadow font-syne overflow-x-auto">
       <div>
-        <Logo className="h-10" /> {/* Display the SVG logo */}
+        <Logo className="h-10" onClick={handleHomeClick} />{" "}
+        {/* Display the SVG logo */}
       </div>
       <ul className="flex flex-1 justify-center text-xl space-x-8">
         <li className="text-primary cursor-pointer" onClick={handleHomeClick}>
