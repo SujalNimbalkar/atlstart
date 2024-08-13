@@ -1,15 +1,17 @@
 import React from "react";
 import CountUp from "react-countup";
-// import { ReactComponent as Achieve } from "../assets/achieve.svg";
+
 import { ReactComponent as Community } from "../assets/community-icon.svg";
 import { ReactComponent as Companies } from "../assets/companies-icon.svg";
 import { ReactComponent as Projects } from "../assets/projects-icon.svg";
 import { ReactComponent as Opportunities } from "../assets/opportunities-icon.svg";
 
+// consist bar what is altstart and stats of community
+
 const AboutAltStart = () => {
   return (
     <section className="bg-[#F7F7FA] text-black py-20 font-syne">
-      <div className="max-w-7xl mx-auto px-6 ">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <div className="text-center mb-12">
             <p className="text-gray-600 uppercase tracking-wider mb-2">
@@ -40,7 +42,7 @@ const AboutAltStart = () => {
           </div>
         </div>
         {/* <Achieve className="h-[116px] w-[1248px]" /> */}
-        <div className="py-8 bg-gradient-to-t from-yellow-300 via-yellow-200 to-yellow-100  rounded-[22px]">
+        <div className="py-8 bg-gradient-to-t from-yellow-300 to-yellow-50  rounded-[22px]">
           <div className="max-w-7xl mx-auto flex flex-wrap justify-around text-center">
             {/* Item 1 */}
             <div className="flex items-center space-x-4">

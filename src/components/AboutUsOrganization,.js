@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "../assets/organizational-behavior.png";
 
+//consist para of organizational behavior and img
+
 const OrganizationalExcellence = () => {
   return (
-    <section className="bg-white py-16 font-syne">
+    <section id="about-us-info" className="bg-white py-16 font-syne">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-bold mb-6">
           Welcome to a New Era of{" "}

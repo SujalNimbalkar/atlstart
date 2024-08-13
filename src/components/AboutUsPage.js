@@ -12,7 +12,6 @@ function AboutUsPage() {
       <OrganizationalExcellence />
       <OurPhilosophyAndStory />
       <AboutAltStart />
-
       <ConsultationCall />
     </div>
   );

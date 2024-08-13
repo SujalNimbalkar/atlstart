@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ReactComponent as ArrowIcon } from "../assets/arrow-icon.svg";
-
+import { useNavigate } from "react-router-dom";
 const serviceContent = {
   universities: {
     title1: "Professor Development: ",
@@ -32,7 +32,10 @@ const OurServices = () => {
   const [selectedService, setSelectedService] = useState("universities");
 
   const { title1, text1, title2, text2 } = serviceContent[selectedService];
-
+  const navigate = useNavigate();
+  const handleOurServicesClick = () => {
+    navigate("/our-services");
+  };
   return (
     <section className="bg-white text-black py-20">
       <div className="max-w-fit mx-auto px-6 lg:px-20">
@@ -80,22 +83,23 @@ const OurServices = () => {
               <ArrowIcon className="text-black ml-2 absolute right-4 top-1/2 transform -translate-y-1/2" />
             </button>
           </div>
-          <div className="w-[50px] "></div>
+
           <div className="p-8 lg:w-2/3 bg-gray-100 text-black rounded-[50px]">
             <h3 className="text-2xl font-bold mb-4 font-syne">{title1}</h3>
             <p className="text-lg mb-6 font-syne">{text1}</p>
             <h3 className="text-2xl font-bold mb-4 font-syne">{title2}</h3>
             <p className="text-lg mb-6 font-syne">{text2}</p>
-            <a
-              href="/"
+            <li
+              // href="/"
               className="text-black font-normal underline hover:no-underline font-syne"
               style={{
                 textDecorationColor: "#C7C644",
                 textDecorationThickness: "1.5px",
               }}
+              onClick={handleOurServicesClick}
             >
               Learn More
-            </a>
+            </li>
           </div>
         </div>
       </div>

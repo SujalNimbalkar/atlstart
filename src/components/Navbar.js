@@ -23,9 +23,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white px-16 py-4 flex justify-between items-center shadow font-syne overflow-x-auto">
+    <nav className="bg-white px-16 py-4 flex justify-between items-center shadow font-syne overflow-x-auto ">
       <div>
-        <Logo className="h-10" onClick={handleHomeClick} />{" "}
+        <Logo className="h-10 cursor-pointer" onClick={handleHomeClick} />{" "}
         {/* Display the SVG logo */}
       </div>
       <ul className="flex flex-1 justify-center text-xl space-x-8">
@@ -33,7 +33,7 @@ const Navbar = () => {
           Home
         </li>
         <li
-          className="text-primary cursor-pointer"
+          className="text-black cursor-pointer"
           onClick={handleOurServicesClick}
         >
           Our Services
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="flex-shrink-0">
         <PopupButton
           url="https://calendly.com/sujalnimbalkar09"
-          className="App bg-black text-white px-4 py-2 rounded-3xl border-black"
+          className="App bg-black text-white px-4 py-2 rounded-3xl border-black font-syne"
           /*
            * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
            * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
@@ -63,5 +63,5 @@ const Navbar = () => {
     </nav>
   );
 };
-// bg-black text-white px-4 py-2 rounded-3xl border-black
+
 export default Navbar;
