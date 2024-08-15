@@ -73,7 +73,8 @@
 // export default Navbar;import React, { useState } from "react";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as Logo } from "../assets/altstart-logo.svg";
+// import { ReactComponent as Logo } from "../assets/altstart-logo.svg";
+import Logo_2 from "../assets/altstart-logo41.png";
 import { PopupButton } from "react-calendly";
 
 const Navbar = () => {
@@ -107,7 +108,13 @@ const Navbar = () => {
   return (
     <nav className="bg-white px-4 md:px-16 py-4 flex justify-between items-center shadow font-syne sticky top-0 z-50">
       <div>
-        <Logo className="h-10 cursor-pointer" onClick={handleHomeClick} />
+        <img
+          src={Logo_2}
+          alt="AltStart"
+          className="h-10 w-auto cursor-pointer "
+          onClick={handleHomeClick}
+        />
+        {/* <Logo className="h-10 cursor-pointer" onClick={handleHomeClick} /> */}
       </div>
       <div className="md:hidden flex items-center">
         <button

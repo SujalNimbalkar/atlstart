@@ -87,11 +87,20 @@ import React from "react";
 import { ReactComponent as InstagramIcon } from "../assets/instagram-icon.svg";
 // import { ReactComponent as TwitterIcon } from "../assets/twitter-icon.svg";
 import { ReactComponent as UpArrowIcon } from "../assets/up-arrow-icon.svg";
-import { ReactComponent as Logo } from "../assets/altstart-logo-white.svg";
+// import { ReactComponent as Logo } from "../assets/altstart-logo-white.svg";
+import Logo from "../assets/altstart-logo-white2.png";
 import { ReactComponent as PhoneIcon } from "../assets/phone-icon.svg";
 import { ReactComponent as SendIcon } from "../assets/send-icon.svg";
 import { ReactComponent as LinkedinIcon } from "../assets/linkedin-icon.svg";
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    navigate("/");
+  };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -104,7 +113,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-10">
           <div className="flex flex-col items-center md:items-start">
-            <Logo className="h-10 mb-4 md:mb-0" />
+            {/* <Logo className="h-10 mb-4 md:mb-0" /> */}
+            <img
+              src={Logo}
+              alt="Logo"
+              className="h-10 mb-4 md:mb-0"
+              onClick={() => {
+                handleHomeClick();
+                scrollToTop();
+              }}
+            />
           </div>
           <div className="space-y-4 text-center md:text-left">
             <div>
@@ -114,12 +132,26 @@ const Footer = () => {
               </h3>
               <p>+91 91825 67700</p>
             </div>
-            <div>
+            {/* <div>
               <h3 className="text-lg font-bold mb-2 flex justify-center md:justify-start items-center">
                 <SendIcon className="inline-block" />
                 &nbsp; Email
               </h3>
               <p>altstart.contact@gmail.com</p>
+            </div> */}
+            <div>
+              <h3 className="text-lg font-bold mb-2 flex justify-center md:justify-start items-center">
+                <SendIcon className="inline-block" />
+                &nbsp; Email
+              </h3>
+              <p>
+                <a
+                  href="mailto:altstart.contact@gmail.com"
+                  className="text-white hover:underline"
+                >
+                  altstart.contact@gmail.com
+                </a>
+              </p>
             </div>
           </div>
           <div className="space-y-4 text-center md:text-left">
