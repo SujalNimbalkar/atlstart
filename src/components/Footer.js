@@ -161,12 +161,16 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/altstart.ai"
                   className="text-xl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InstagramIcon />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/altstart/"
                   className="text-xl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <LinkedinIcon />
                 </a>

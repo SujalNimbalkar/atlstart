@@ -122,7 +122,7 @@ const testimonials = [
       "AltStart has been project managing the build of our AI based product - VIKRAM and we are absolutely delighted by their commitment for the product. Right from hiring the best talent to planning the schedules and taking constant updates from the developers as well as providing their unique perspectives - their approach has been systematic and result oriented.",
     name: "@ Girish Na",
     position: "Arthlex Research",
-    image: "https://imgur.com/oHXxXRI",
+    image: profileImage,
   },
 ];
 

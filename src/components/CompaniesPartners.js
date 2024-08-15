@@ -98,7 +98,7 @@ const Companies = () => {
   return (
     <section className="bg-white py-16 font-syne overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-        <h2 className="text-4xl font-bold mb-8">Companies-partners</h2>
+        <h2 className="text-4xl font-bold mb-8">Companies Partners</h2>
         <div className="container mx-auto ">
           <MarqueeItem images={upperMarquee} from={0} to={"-100%"} />
         </div>
