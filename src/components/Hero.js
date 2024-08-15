@@ -1,8 +1,9 @@
 import React from "react";
 import { PopupButton } from "react-calendly";
-import HeroImg1 from "../assets/header_img1_cut.png";
-import HeroImg2 from "../assets/header_img2_cut.png";
-import HeroImg3 from "../assets/header_img3_cut.png";
+import HeroNewImg from "../assets/home2.png";
+// import HeroImg1 from "../assets/header_img1_cut.png";
+// import HeroImg2 from "../assets/header_img2_cut.png";
+// import HeroImg3 from "../assets/header_img3_cut.png";
 
 const Hero = () => {
   return (
@@ -73,7 +74,7 @@ const Hero = () => {
         </div>
       </div> */}
       <div className="px-20 lg:w-1/2 mt-10 lg:mt-0 flex justify-center lg:justify-end gap-4 lg:gap-8">
-        <div className="my-auto bg-white text-black rounded-xl shadow-lg p-4 flex flex-col items-center">
+        {/* <div className="my-auto bg-white text-black rounded-xl shadow-lg p-4 flex flex-col items-center">
           <h3 className="text-sm font-syne text-center p-4 mb-2">
             Collaboration With 30+ Colleges And Companies
           </h3>
@@ -98,7 +99,8 @@ const Hero = () => {
               <img src={HeroImg3} alt="Pie Chart" />
             </div>
           </div>
-        </div>
+        </div> */}
+        <img src={HeroNewImg} alt="Hero" />
       </div>
     </section>
   );
