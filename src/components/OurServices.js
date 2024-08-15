@@ -48,7 +48,7 @@ const OurServices = () => {
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row bg-gradient-to-r from-black to-gray-900 text-white rounded-[50px] overflow-hidden shadow-lg">
-          <div className="flex flex-col lg:w-1/3 justify-center gap-10">
+          <div className="flex flex-col lg:w-1/3 justify-center gap-10 py-4">
             <button
               className={`${
                 selectedService === "universities"

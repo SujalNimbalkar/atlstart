@@ -1,5 +1,5 @@
 import React from "react";
-import imageSrc from "../assets/our-serices-info-1.jpg"; // Replace with the actual path to your image
+import imageSrc from "../assets/our-serices-info-1.jpg";
 import { ReactComponent as TickIcon } from "../assets/tick-icon.svg";
 import imageSrc2 from "../assets/our-serices-info-2.jpg";
 import imageSrc3 from "../assets/our-serices-info-3.png";
@@ -8,24 +8,26 @@ const OurServicesInfo = () => {
   return (
     <section
       id="our-services-info"
-      className="min-h-screen flex flex-col items-center justify-center bg-white p-16 gap-20 font-syne"
+      className="min-h-screen flex flex-col items-center justify-center bg-white p-6 md:p-16 gap-12 md:gap-20 font-syne"
     >
-      <div className="max-w-7xl mx-auto text-center">
-        <h1 className="text-5xl font-bold text-black mb-4">
+      <div className="max-w-7xl mx-auto text-center px-4">
+        <h1 className="text-3xl md:text-5xl font-bold text-black mb-4">
           Unleash the Power of Human + Machine <br /> with{" "}
           <span className="text-yellow-500">AltStart</span>
         </h1>
-        <p className="text-lg text-gray-800">
+        <p className="text-sm md:text-lg text-gray-800">
           Here's how AltStart ignites innovation and drives success for you:
         </p>
       </div>
-      <div className="max-w-7xl mx-px grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-16 rounded-lg shadow-lg">
-        <div className="">
-          <h2 className="text-3xl font-syne font-bold text-black mb-4">
+
+      {/* Section 1 */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-8 md:p-16 rounded-lg shadow-lg">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-syne font-bold text-black mb-4">
             For Universities
           </h2>
           <div className="mb-4">
-            <p className="text-lg text-black">
+            <p className="text-sm md:text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
@@ -37,7 +39,7 @@ const OurServicesInfo = () => {
             </p>
           </div>
           <div>
-            <p className="text-lg text-black">
+            <p className="text-sm md:text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
@@ -48,32 +50,34 @@ const OurServicesInfo = () => {
               graduation.
             </p>
           </div>
-          <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
+          {/* <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
             TALK TO AN EXPERT
-          </button>
+          </button> */}
         </div>
         <div className="flex justify-center items-center">
           <img
             src={imageSrc}
             alt="Students working together"
-            className="rounded-lg shadow-lg w-full h-full object-cover"
+            className="rounded-lg shadow-lg w-full h-auto object-cover"
           />
         </div>
       </div>
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-16 rounded-lg shadow-lg">
+
+      {/* Section 2 */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-8 md:p-16 rounded-lg shadow-lg">
         <div className="flex justify-center items-center">
           <img
             src={imageSrc2}
-            alt="Students working together"
-            className="rounded-lg shadow-lg w-full h-full object-cover"
+            alt="Organizations"
+            className="rounded-lg shadow-lg w-full h-auto object-cover"
           />
         </div>
-        <div className="">
-          <h2 className="text-3xl font-bold text-black mb-4">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
             For Organizations
           </h2>
           <div className="mb-4">
-            <p className="text-lg text-black">
+            <p className="text-sm md:text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
@@ -84,7 +88,7 @@ const OurServicesInfo = () => {
             </p>
           </div>
           <div>
-            <p className="text-lg text-black">
+            <p className="text-sm md:text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
@@ -95,18 +99,20 @@ const OurServicesInfo = () => {
               seamlessly into your workflows.
             </p>
           </div>
-          <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
+          {/* <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
             TALK TO AN EXPERT
-          </button>
+          </button> */}
         </div>
       </div>
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-16 rounded-lg shadow-lg">
-        <div className="">
-          <h2 className="text-3xl font-bold text-black mb-4">
+
+      {/* Section 3 */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-8 md:p-16 rounded-lg shadow-lg">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
             For Individuals & Teams
           </h2>
           <div className="mb-4">
-            <p className="text-lg text-black">
+            <p className="text-sm md:text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
@@ -118,7 +124,7 @@ const OurServicesInfo = () => {
             </p>
           </div>
           <div>
-            <p className="text-lg text-black">
+            <p className="text-sm md:text-lg text-black">
               <span className="inline-block mr-2">
                 <TickIcon />
               </span>
@@ -126,18 +132,18 @@ const OurServicesInfo = () => {
               Empower yourself to be the driving force behind groundbreaking
               products. Our programs develop your ability to think critically,
               iterate on ideas, and leverage AI to create solutions that make a
-              difference. graduation.
+              difference.
             </p>
           </div>
-          <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
+          {/* <button className="mt-8 px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition">
             TALK TO AN EXPERT
-          </button>
+          </button> */}
         </div>
         <div className="flex justify-center items-center">
           <img
             src={imageSrc3}
-            alt="Students working together"
-            className="rounded-lg shadow-lg w-full h-full object-cover"
+            alt="Individuals and Teams"
+            className="rounded-lg shadow-lg w-full h-auto object-cover"
           />
         </div>
       </div>

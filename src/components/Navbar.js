@@ -1,108 +1,29 @@
-// import React from "react";
-// import { useNavigate } from "react-router-dom";
-// // import { ReactComponent as Logo } from "../assets/altstart-logo-2.svg";
-// import { ReactComponent as Logo } from "../assets/altstart-logo.svg";
-// import { PopupButton } from "react-calendly";
-
-// const Navbar = () => {
-//   const navigate = useNavigate();
-//   const handleHomeClick = () => {
-//     navigate("/");
-//   };
-
-//   const handleOurServicesClick = () => {
-//     navigate("/our-services");
-//   };
-
-//   const handleAboutClick = () => {
-//     navigate("/about-us");
-//   };
-
-//   const handleContactUsClick = () => {
-//     navigate("/contact-us");
-//   };
-//   // flex flex-1 justify-center text-xl space-x-8
-//   return (
-//     <nav className="bg-white px-16 py-4 flex justify-between items-center shadow font-syne overflow-x-auto ">
-//       <div>
-//         <Logo className="h-10 cursor-pointer" onClick={handleHomeClick} />{" "}
-//         {/* Display the SVG logo */}
-//       </div>
-//       <ul className="flex flex-1 justify-center text-xl space-x-8">
-//         <li
-//           className="text-black hover:text-primary cursor-pointer"
-//           onClick={handleHomeClick}
-//         >
-//           Home
-//         </li>
-//         <li
-//           className="text-black hover:text-primary cursor-pointer"
-//           onClick={handleOurServicesClick}
-//         >
-//           Our Services
-//         </li>
-//         <li
-//           className="text-black hover:text-primary cursor-pointer"
-//           onClick={handleAboutClick}
-//         >
-//           About Us
-//         </li>
-//         <li
-//           className="text-black hover:text-primary cursor-pointer"
-//           onClick={handleContactUsClick}
-//         >
-//           Contact Us
-//         </li>
-//       </ul>
-//       <div className="flex-shrink-0">
-//         <PopupButton
-//           url="https://calendly.com/sujalnimbalkar09"
-//           className="App bg-black text-white px-4 py-2 rounded-3xl border-black font-syne"
-//           /*
-//            * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-//            * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-//            */
-//           rootElement={document.getElementById("root")}
-//           text="Let's Talk"
-//         />
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;import React, { useState } from "react";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-// import { ReactComponent as Logo } from "../assets/altstart-logo.svg";
+import { useNavigate, useLocation } from "react-router-dom";
 import Logo_2 from "../assets/altstart-logo41.png";
 import { PopupButton } from "react-calendly";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation(); // Get the current route
 
-  const handleHomeClick = () => {
-    navigate("/");
-    setIsOpen(false);
-  };
-
-  const handleOurServicesClick = () => {
-    navigate("/our-services");
-    setIsOpen(false);
-  };
-
-  const handleAboutClick = () => {
-    navigate("/about-us");
-    setIsOpen(false);
-  };
-
-  const handleContactUsClick = () => {
-    navigate("/contact-us");
-    setIsOpen(false);
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsOpen(false); // Close the menu after navigation
   };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  // Function to apply active styles based on the current path
+  const getNavItemClass = (path) => {
+    return `text-black text-xl px-4 py-2 md:py-0 cursor-pointer ${
+      location.pathname === path
+        ? "text-primary underline"
+        : "hover:text-primary hover:underline"
+    }`;
   };
 
   return (
@@ -111,10 +32,9 @@ const Navbar = () => {
         <img
           src={Logo_2}
           alt="AltStart"
-          className="h-10 w-auto cursor-pointer "
-          onClick={handleHomeClick}
+          className="h-10 w-auto cursor-pointer"
+          onClick={() => handleNavigation("/")}
         />
-        {/* <Logo className="h-10 cursor-pointer" onClick={handleHomeClick} /> */}
       </div>
       <div className="md:hidden flex items-center">
         <button
@@ -152,26 +72,26 @@ const Navbar = () => {
         } absolute top-full left-0 w-full md:relative md:flex md:w-auto flex-col md:flex-row bg-white md:bg-transparent shadow-lg md:shadow-none p-4 md:p-0`}
       >
         <li
-          className=" text-black text-xl hover:text-primary hover:underline cursor-pointer px-4 py-2 md:py-0"
-          onClick={handleHomeClick}
+          className={getNavItemClass("/")}
+          onClick={() => handleNavigation("/")}
         >
           Home
         </li>
         <li
-          className="text-black text-xl hover:text-primary hover:underline  cursor-pointer px-4 py-2 md:py-0"
-          onClick={handleOurServicesClick}
+          className={getNavItemClass("/our-services")}
+          onClick={() => handleNavigation("/our-services")}
         >
           Our Services
         </li>
         <li
-          className="text-black text-xl hover:text-primary hover:underline  cursor-pointer px-4 py-2 md:py-0"
-          onClick={handleAboutClick}
+          className={getNavItemClass("/about-us")}
+          onClick={() => handleNavigation("/about-us")}
         >
           About Us
         </li>
         <li
-          className="text-black text-xl hover:text-primary hover:underline  cursor-pointer px-4 py-2 md:py-0"
-          onClick={handleContactUsClick}
+          className={getNavItemClass("/contact-us")}
+          onClick={() => handleNavigation("/contact-us")}
         >
           Contact Us
         </li>

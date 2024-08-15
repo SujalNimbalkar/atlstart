@@ -15,7 +15,7 @@ const OurServicesPageHero = () => {
           <p className="text-s font-syne text-gray-800 mb-8">
             Here's how AltStart ignites innovation and drives success for you:
           </p>
-          <button
+          {/* <button
             onClick={() =>
               document
                 .getElementById("our-services-info")
@@ -24,7 +24,7 @@ const OurServicesPageHero = () => {
             className="px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition font-syne"
           >
             GET A FREE AUDIT
-          </button>
+          </button> */}
         </div>
         <div className="relative flex justify-center items-center">
           <img

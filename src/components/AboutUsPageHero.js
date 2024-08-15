@@ -15,7 +15,7 @@ const AboutUsPageHero = () => {
             just going through the motions, but actively sparking innovation and
             driving growth. That's the world AltStart helps you build.
           </p>
-          <button
+          {/* <button
             onClick={() =>
               document
                 .getElementById("about-us-info")
@@ -24,7 +24,7 @@ const AboutUsPageHero = () => {
             className="px-6 py-3 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition"
           >
             GET A FREE AUDIT
-          </button>
+          </button> */}
         </div>
         <div className="relative flex justify-center items-center">
           <div className="bg-gray-300 w-full h-full rounded-lg">
