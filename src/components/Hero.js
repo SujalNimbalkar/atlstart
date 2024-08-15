@@ -73,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
       </div> */}
-      <div className="px-20 lg:w-1/2 mt-10 lg:mt-0 flex justify-center lg:justify-end gap-4 lg:gap-8">
+      <div className="px-4 sm:px-10 lg:w-1/2 mt-6 lg:mt-0 flex justify-center lg:justify-end gap-2 lg:gap-8">
         {/* <div className="my-auto bg-white text-black rounded-xl shadow-lg p-4 flex flex-col items-center">
           <h3 className="text-sm font-syne text-center p-4 mb-2">
             Collaboration With 30+ Colleges And Companies
@@ -100,7 +100,11 @@ const Hero = () => {
             </div>
           </div>
         </div> */}
-        <img src={HeroNewImg} alt="Hero" />
+        <img
+          src={HeroNewImg}
+          alt="Hero"
+          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+        />
       </div>
     </section>
   );
