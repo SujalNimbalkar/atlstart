@@ -1,6 +1,8 @@
 import React from "react";
-import imageSrc from "../assets/our-services-university-section.svg"; // Replace with the actual path to your image
+import imageSrc from "../assets/our-serices-info-1.jpg"; // Replace with the actual path to your image
 import { ReactComponent as TickIcon } from "../assets/tick-icon.svg";
+import imageSrc2 from "../assets/our-serices-info-2.jpg";
+import imageSrc3 from "../assets/our-serices-info-3.png";
 
 const OurServicesInfo = () => {
   return (
@@ -61,7 +63,7 @@ const OurServicesInfo = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFED] p-16 rounded-lg shadow-lg">
         <div className="flex justify-center items-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/514f/8e98/b2e3cf06e13f9a236286d098d1169fe7?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aS90wqDu2Tq4XwucRgBFsDwJ1is0Y9HGrXtLUR4d5hBJzbbP6FhDrU2VOHplhQnAxbGQvsG1oaFUUTtFEV1f~K1mwpuV3Jv4HXTLqH72-C1T1LOP-smG77r8kqodHTj~npze3rRqH7hn935AFM0GrFMog5W1uKvjuOWBGpuqNQflJFXDrop6DWo0pJalf8jZfEiz9aT6UqJco~XCnStuvRQfi8w~QzLYFNrFdvfGSbfMf~E1gDNmNmI6zhk9ZI7W7LKs0xwIv3IiGXlLb~doLr90emFASH2Qz9d-6OdarFhaIWhUT2tjEbPqtwxepnL~lJJbye33xKRQ6u-SVPJt4Q__"
+            src={imageSrc2}
             alt="Students working together"
             className="rounded-lg shadow-lg w-full h-full object-cover"
           />
@@ -133,7 +135,7 @@ const OurServicesInfo = () => {
         </div>
         <div className="flex justify-center items-center">
           <img
-            src={imageSrc}
+            src={imageSrc3}
             alt="Students working together"
             className="rounded-lg shadow-lg w-full h-full object-cover"
           />

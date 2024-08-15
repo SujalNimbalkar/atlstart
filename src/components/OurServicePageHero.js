@@ -1,5 +1,6 @@
 import React from "react";
-import heroImage from "../assets/our-services-hero.png";
+// import heroImage from "../assets/our-services-hero.png";
+import heroImage2 from "../assets/our-serv.png";
 const OurServicesPageHero = () => {
   return (
     <section className="min-h-[669px] flex items-center justify-center bg-gradient-to-b from-yellow-300 via-yellow-100 to-white p-16">
@@ -26,13 +27,11 @@ const OurServicesPageHero = () => {
           </button>
         </div>
         <div className="relative flex justify-center items-center">
-          <div className="bg-white  rounded-lg">
-            <img
-              src={heroImage}
-              alt="Service Illustration"
-              className="rounded-lg w-full h-full object-cover"
-            />
-          </div>
+          <img
+            src={heroImage2}
+            alt="Service Illustration"
+            className="rounded-lg w-full h-full object-cover"
+          />
         </div>
       </div>
     </section>
