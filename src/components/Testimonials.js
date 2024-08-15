@@ -80,6 +80,11 @@
 import React, { useState } from "react";
 import { ReactComponent as RocketIcon } from "../assets/rocket-icon.svg";
 import profileImage from "../assets/profile-image.svg"; // Replace with the actual path to the profile image
+import vikas from "../assets/testimonial/vikas-rai.jpeg";
+import aman from "../assets/testimonial/aman.jpeg";
+import aaditya from "../assets/testimonial/aditya.jpeg";
+import gurtaran from "../assets/testimonial/gurtaran-singh.jpeg";
+import karthik from "../assets/testimonial/karthik.jpeg";
 
 const testimonials = [
   {
@@ -87,35 +92,35 @@ const testimonials = [
       "I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad that we at upanyas decided to work with you.",
     name: "@ Aman",
     position: "Team Upanyaas",
-    image: profileImage,
+    image: aman,
   },
   {
     quote:
       "Working with AltStart was very amazing and informative. Gaming Geeks collaborated with AltStart on the Web Game Dev Bootcamp that took place from February 24 to March 2, 2022.",
     name: "@ Gurtaran Singh",
     position: "Gaming Geeks",
-    image: profileImage,
+    image: gurtaran,
   },
   {
     quote:
       "My experience with AltStart have been amazing and the founders are so cool and they have helped us grow in our domain in the ecosystem they provide.",
     name: "@ Aaditya",
     position: "Befikra Community",
-    image: profileImage,
+    image: aaditya,
   },
   {
     quote:
       "Hello everyone, I'm Vikas Rai. Recently I attended TezIndia Blockchain Bootcamp 1.0. The Bootcamp was amazing. I didn't have any previous knowledge about Web 3.0.",
     name: "@ Vikas Rai",
     position: "Student",
-    image: profileImage,
+    image: vikas,
   },
   {
     quote:
       "AltStart has made my journey as a first time founder so easy. I could completely concentrate on business improvement with AltStart on my side as project handlers. They always had time for any discussion/clarification. So grateful to find them. I defenitely recommend.",
     name: "@ Karthik Karamsetty",
     position: "FinoBird",
-    image: profileImage,
+    image: karthik,
   },
   {
     quote:
