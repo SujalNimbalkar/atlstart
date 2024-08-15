@@ -45,7 +45,7 @@ const AboutAltStart = () => {
         <div className="py-8 bg-gradient-to-t from-yellow-300 to-yellow-50 rounded-[22px]">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-center md:justify-around text-center gap-y-8 md:gap-y-0">
             {/* Item 1 */}
-            <div className="flex items-center space-x-4 mx-auto md:mx-0">
+            <div className="flex items-center space-x-4 mx-auto md:mx-0 justify-start md:justify-center">
               <div className="p-3 bg-yellow-200 rounded-full">
                 <Community className="text-yellow-600 text-3xl" />
               </div>
@@ -65,7 +65,7 @@ const AboutAltStart = () => {
               </div>
             </div>
             {/* Item 2 */}
-            <div className="flex items-center space-x-4 mx-auto md:mx-0">
+            <div className="flex items-center space-x-4 mx-auto md:mx-0 justify-start md:justify-center">
               <div className="p-3 bg-yellow-200 rounded-full">
                 <Opportunities className="text-yellow-600 text-3xl" />
               </div>
@@ -85,7 +85,7 @@ const AboutAltStart = () => {
               </div>
             </div>
             {/* Item 3 */}
-            <div className="flex items-center space-x-4 mx-auto md:mx-0">
+            <div className="flex items-center space-x-4 mx-auto md:mx-0 justify-start md:justify-center">
               <div className="p-3 bg-yellow-200 rounded-full">
                 <Projects className="text-yellow-600 text-3xl" />
               </div>
@@ -103,7 +103,7 @@ const AboutAltStart = () => {
               </div>
             </div>
             {/* Item 4 */}
-            <div className="flex items-center space-x-4 mx-auto md:mx-0">
+            <div className="flex items-center space-x-4 mx-auto md:mx-0 justify-start md:justify-center">
               <div className="p-3 bg-yellow-200 rounded-full">
                 <Companies className="text-yellow-600 text-3xl" />
               </div>
