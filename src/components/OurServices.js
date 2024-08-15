@@ -3,28 +3,28 @@ import { ReactComponent as ArrowIcon } from "../assets/arrow-icon.svg";
 import { useNavigate } from "react-router-dom";
 const serviceContent = {
   universities: {
-    title1: "Professor Development: ",
+    // title1: "Professor Development: ",
     text1:
-      "Equip your faculty with the latest AI knowledge and best practices through comprehensive training programs. We can help professors integrate AI into their curriculum, ensuring students graduate with the skills needed to thrive in the AI-driven workforce",
-    title2: "Student Empowerment",
-    text2:
-      "Offer in-demand AI courses and workshops for students, preparing them for future careers. We provide hands-on learning experiences with real-world applications, making them valuable assets upon graduation.",
+      "Elevate your university's academic offerings by empowering both faculty and students with our cutting-edge AI training programs. Equip professors with the latest tools to seamlessly weave AI into their curriculum, ensuring they teach with confidence and foresight. At the same time, arm your students with hands-on, real-world AI skills that make them stand out in a competitive job market. Invest in knowledge today to harvest success tomorrow—let us help you cultivate a future-ready workforce.",
+    // title2: "Student Empowerment",
+    // text2:
+    //   "Offer in-demand AI courses and workshops for students, preparing them for future careers. We provide hands-on learning experiences with real-world applications, making them valuable assets upon graduation.",
   },
   organizations: {
-    title1: "Customized Training: ",
+    // title1: "Customized Training: ",
     text1:
-      "We tailor AI training programs to your specific needs and industry. From foundational AI concepts to advanced applications, we equip your workforce with the skills needed to revolutionize your operations.",
-    title2: "Unlocking Innovation: ",
-    text2:
-      "Foster a culture of innovation within your organization by empowering employees to leverage AI for problem-solving and creative thinking. We help you identify AI opportunities and integrate them seamlessly into your workflows.",
+      "Supercharge your organization with customized AI training tailored to your industry’s unique needs. From foundational concepts to advanced applications, we equip your workforce with the tools to revolutionize operations and drive growth. Unlock innovation by fostering a culture where employees are empowered to harness AI for problem-solving and creative thinking. We'll help you identify AI opportunities and seamlessly integrate them into your workflows, paving the way for groundbreaking success.",
+    // title2: "Unlocking Innovation: ",
+    // text2:
+    //   "Foster a culture of innovation within your organization by empowering employees to leverage AI for problem-solving and creative thinking. We help you identify AI opportunities and integrate them seamlessly into your workflows.",
   },
   individuals: {
-    title1: "Idea Incubator: ",
+    // title1: "Idea Incubator: ",
     text1:
-      "Take your ideas from the drawing board to reality. Our interactive workshops and courses provide the tools and knowledge to leverage AI at every stage of the product development process, from initial brainstorming to prototyping and testing.",
-    title2: "Become an Innovation Catalyst: ",
-    text2:
-      "Empower yourself to be the driving force behind groundbreaking products. Our programs develop your ability to think critically, iterate on ideas, and leverage AI to create solutions that make a difference.",
+      " Unleash your potential with our Idea Incubator, where your ideas evolve from concept to reality. Through interactive workshops and courses, we equip you with the AI tools and knowledge needed at every stage of product development—from brainstorming to prototyping and testing. Become an innovation catalyst and be the driving force behind groundbreaking solutions. Our programs empower you to think critically, iterate on ideas, and leverage AI to create products that truly make a difference.",
+    // title2: "Become an Innovation Catalyst: ",
+    // text2:
+    // "Empower yourself to be the driving force behind groundbreaking products. Our programs develop your ability to think critically, iterate on ideas, and leverage AI to create solutions that make a difference.",
   },
 };
 

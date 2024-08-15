@@ -26,7 +26,7 @@ const ContactUs = () => {
     const formDataObj = new FormData(formEle);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbyImbGiYGdsFJk9ECYpdf0llY4elF-cHaYcdPuivuElAWgwxLDPaITGAGlZie03zZ0j/exec",
+      "https://script.google.com/macros/s/AKfycbyWDTqttaxnesT9kORJ10KZ8734zVHhq_T4EtLoXcgc9LhltvSX03Lye7uGNYjfIEY/exec",
       {
         method: "POST",
         body: formDataObj,
@@ -60,7 +60,7 @@ const ContactUs = () => {
 
   return (
     <div className="bg-gradient-to-b from-yellow-300 via-yellow-100 to-white min-h-screen flex flex-col justify-center items-center py-12 font-syne">
-      <div className="px-10 grid grid-cols-1 md:grid-cols-2 gap-40">
+      <div className="px-10 grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* Left Section */}
         <div className="space-y-6 p-8">
           <h3 className="text-sm font-medium text-black">CONTACT US</h3>
@@ -72,8 +72,8 @@ const ContactUs = () => {
             contact. We are eager to connect with you and explore how our team
             can contribute to your success.
           </p>
-          <div className="mt-8">
-            <div className="flex justify-between">
+          <div className="mt-8 ">
+            <div className="justify-between grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <h3 className="text-lg font-bold mb-2">Phone Number</h3>
                 <p className="text-xl">+91 91825 67700</p>

@@ -84,14 +84,6 @@ import profileImage from "../assets/profile-image.svg"; // Replace with the actu
 const testimonials = [
   {
     quote:
-      "Codeate has been project managing the build of our AI based product - VIKRAM and we are absolutely delighted by their commitment for the product. Right from hiring the best talent to planning the schedules and taking constant updates from the developers as well as providing their unique perspectives - their approach has been systematic and result oriented.",
-
-    name: "@ Girish Na",
-    position: "Arthlex Research",
-    image: profileImage,
-  },
-  {
-    quote:
       "I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad that we at upanyas decided to work with you.",
     name: "@ Aman",
     position: "Team Upanyaas",
@@ -99,14 +91,14 @@ const testimonials = [
   },
   {
     quote:
-      "Working with Codeate was very amazing and informative. Gaming Geeks collaborated with Codeate on the Web Game Dev Bootcamp that took place from February 24 to March 2, 2022.",
+      "Working with AltStart was very amazing and informative. Gaming Geeks collaborated with AltStart on the Web Game Dev Bootcamp that took place from February 24 to March 2, 2022.",
     name: "@ Gurtaran Singh",
     position: "Gaming Geeks",
     image: profileImage,
   },
   {
     quote:
-      "My experience with Codeate have been amazing and the founders are so cool and they have helped us grow in our domain in the ecosystem they provide.",
+      "My experience with AltStart have been amazing and the founders are so cool and they have helped us grow in our domain in the ecosystem they provide.",
     name: "@ Aaditya",
     position: "Befikra Community",
     image: profileImage,
@@ -120,10 +112,17 @@ const testimonials = [
   },
   {
     quote:
-      "Codeate has made my journey as a first time founder so easy. I could completely concentrate on business improvement with Codeate on my side as project handlers. They always had time for any discussion/clarification. So grateful to find them. I defenitely recommend.",
+      "AltStart has made my journey as a first time founder so easy. I could completely concentrate on business improvement with AltStart on my side as project handlers. They always had time for any discussion/clarification. So grateful to find them. I defenitely recommend.",
     name: "@ Karthik Karamsetty",
     position: "FinoBird",
     image: profileImage,
+  },
+  {
+    quote:
+      "AltStart has been project managing the build of our AI based product - VIKRAM and we are absolutely delighted by their commitment for the product. Right from hiring the best talent to planning the schedules and taking constant updates from the developers as well as providing their unique perspectives - their approach has been systematic and result oriented.",
+    name: "@ Girish Na",
+    position: "Arthlex Research",
+    image: "https://imgur.com/oHXxXRI",
   },
 ];
 
@@ -154,7 +153,7 @@ const Testimonials = () => {
               <div className="flex items-center">
                 <RocketIcon />
                 <div className="ml-4">
-                  <p className="text-2xl font-bold">98%</p>
+                  <p className="text-2xl font-bold">90%</p>
                   <p className="text-gray-600">Average client satisfaction</p>
                 </div>
               </div>

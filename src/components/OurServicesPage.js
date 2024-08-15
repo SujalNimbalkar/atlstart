@@ -3,15 +3,16 @@ import OurServicesPageHero from "./OurServicePageHero";
 import OurServicesInfo from "./OurServiceInfo";
 import Community from "./CommunityPartners";
 import ConsultationCall from "./ConsultationCall";
-import Marquee from "./WhomWeWorkedWith";
-
+import Companies from "./CompaniesPartners";
+// import Marquee from "./WhomWeWorkedWith";
 function OurServicesPage() {
   return (
     <div>
       <OurServicesPageHero />
       <OurServicesInfo />
       <Community />
-      <Marquee />
+      {/* <Marquee /> */}
+      <Companies />
       <ConsultationCall />
     </div>
   );

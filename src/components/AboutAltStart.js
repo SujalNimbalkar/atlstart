@@ -12,7 +12,7 @@ const AboutAltStart = () => {
   return (
     <section className="bg-[#F7F7FA] text-black py-20 font-syne">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
+        <div className="flex flex-col lg:flex-row justify-between items-start p-4 lg:items-center mb-12">
           <div className="text-center mb-12">
             <p className="text-gray-600 uppercase tracking-wider mb-2">
               About AltStart

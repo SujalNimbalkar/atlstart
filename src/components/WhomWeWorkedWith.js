@@ -18,6 +18,20 @@ import logo15 from "../assets/Images/companies-partners/15.jpeg";
 import logo16 from "../assets/Images/companies-partners/16.png";
 import logo17 from "../assets/Images/companies-partners/17.png";
 import logo18 from "../assets/Images/companies-partners/18.png";
+import logo_1 from "../assets/Images/community-partners/1.jpeg";
+import logo_2 from "../assets/Images/community-partners/2.jpeg";
+import logo_3 from "../assets/Images/community-partners/3.jpeg";
+import logo_4 from "../assets/Images/community-partners/4.jpeg";
+import logo_5 from "../assets/Images/community-partners/5.jpeg";
+import logo_6 from "../assets/Images/community-partners/6.jpeg";
+import logo_7 from "../assets/Images/community-partners/7.jpeg";
+import logo_8 from "../assets/Images/community-partners/8.jpeg";
+import logo_9 from "../assets/Images/community-partners/9.jpeg";
+import logo_10 from "../assets/Images/community-partners/10.jpeg";
+import logo_11 from "../assets/Images/community-partners/11.jpeg";
+import logo_12 from "../assets/Images/community-partners/12.png";
+import logo_13 from "../assets/Images/community-partners/13.png";
+import logo_14 from "../assets/Images/community-partners/14.jpeg";
 
 const Marquee = () => {
   const upperMarquee = [
@@ -39,6 +53,20 @@ const Marquee = () => {
     { src: logo18, name: "Upanyas" },
     { src: logo11, name: "Vikram" },
     { src: logo12, name: "Vvarin" },
+    { src: logo_1, name: "Amity Coding Club" },
+    { src: logo_2, name: "Algocs" },
+    { src: logo_3, name: "Befikra" },
+    { src: logo_4, name: "Blockchain Club SRM" },
+    { src: logo_5, name: "ChatraShala" },
+    { src: logo_6, name: "Codedu" },
+    { src: logo_7, name: "Gaming Geeks" },
+    { src: logo_8, name: "Mentorle" },
+    { src: logo_9, name: "Mighty IT Explorer" },
+    { src: logo_10, name: "She Builds" },
+    { src: logo_11, name: "SOS Tech" },
+    { src: logo_12, name: "TechDirective" },
+    { src: logo_13, name: "ThoughtWays" },
+    { src: logo_14, name: "Web3 Panjab" },
   ];
 
   return (

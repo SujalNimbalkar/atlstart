@@ -41,8 +41,8 @@ const ConsultationCall = () => {
           CONNECT
         </button> */}
         <PopupButton
-          url="https://calendly.com/sujalnimbalkar09"
-          className="App rounded-full focus:outline-none focus:ring focus:ring-slate-300 flex-grow hover:bg-slate-200"
+          url="https://calendly.com/altstart-contact"
+          className="Appmx-auto flex items-center bg-white text-black px-8 py-8 rounded-3xl border-black focus:outline-none focus:ring focus:ring-slate-300 flex-grow hover:bg-slate-200"
           /*
            * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
            * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
@@ -52,6 +52,7 @@ const ConsultationCall = () => {
         />
       </div>
     </section>
+    // App mx-auto flex items-center bg-black text-white px-8 py-8 rounded-3xl border-black
   );
 };
 
